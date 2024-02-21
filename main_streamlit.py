@@ -83,7 +83,7 @@ def main():
     </style>
     """
 
-    #st.markdown(hide_menu_style, unsafe_allow_html=True)
+    st.markdown(hide_menu_style, unsafe_allow_html=True)
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     st.title("🤖 ChatBot + LLM sobre la Licenciatura en Ciencia de Datos")

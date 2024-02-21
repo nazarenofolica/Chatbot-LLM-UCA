@@ -281,7 +281,7 @@ def main():
                     container_html = f"""
                     <div style="display: flex; align-items: center; margin-bottom: 10px;">
                     {image_html}
-                    <h1 style="text-align: left; font-size: 22px; vertical-align: middle; font-weight: bold; margin-left: 1px; color: white; ">L.U.C.A</h1>
+                    <h1 style="text-align: left; font-size: 22px; vertical-align: middle; font-weight: bold; margin-left: 1px; color: black; ">L.U.C.A</h1>
                     </div>
                     """
 

@@ -85,11 +85,11 @@ def main():
     st.title("🤖 ChatBot + LLM sobre la Licenciatura en Ciencia de Datos") #titulo de la pagina
     st.markdown("Este chatbot está diseñado para brindar información sobre la Licenciatura en Ciencia de Datos. Las respuestas son generados con Inteligencia Artificial, por lo que si no son coherentes te recomendamos que vuelvas a preguntar. Antes de empezar te pido que ingreses algunos datos para que la respuesta sea personalizada segun tus preferencias y conocimiento.") #descripcion de la pagina
 
-    host = 'chatbotdb.c9iy624owubo.us-east-1.rds.amazonaws.com'   #host de la base de datos
+    host =  'chatbotdb.chaxaoxmo9uf.us-east-1.rds.amazonaws.com'  #host de la base de datos
     port = 3306                                                   #puerto(mysql es 3306)
     user = 'admin'                                                #usuario de la base de datos
     password = 'chatbotUCA2024'                                   #contraseña
-    database = 'chatbotdb'                                        #nombre de la base de datos
+    database = 'ChatBot'                                        #nombre de la base de datos
 
     try:
         connection = pymysql.connect(host=host, port=port , user= user, passwd = password, db= database) #intento la conexion

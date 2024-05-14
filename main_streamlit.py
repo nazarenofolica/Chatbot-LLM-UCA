@@ -5,7 +5,8 @@ import time            #temporizadores
 import pymysql         #conexion con mysql
 
 # Configuración de la API Key
-api_key = "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"
+api_key = "sk-proj-a3PhzwmJ5MUUvvZgj4o8T3BlbkFJevBKI39gRQcjx6KwiAwe"
+
 openai.api_key = api_key
 
 # Función para la interacción con el chatbot
